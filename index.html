@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Adam's Website</title>
+    <link rel="shortcut icon" type="image/jpg" href="pic.jpeg"
+    />
+</head>
+<body style="margin: 0; background-color: ;">
+    <!-- First division -->
+    <div id="firstdivision" style="background-image: url('pic2.jpeg'); background-size: cover; height: 200px; padding-top: 300px; text-align: center;">
+      <img src="pic.jpeg" style="height: 215px; width: 175px; border-radius:50%;border:2px solid black;">
+      <h1 style="font-size:45px; color:solid black;margin: 10px;">GET TO KNOW</h1>
+      <p style="font-size:30px; color:black;">ADAM ISKANDAR BIN MUSTAFA KAMAL</p>
+      <p style="font-size:18px; color:blue;"><a href="#seconddivision">About Me</a></p>
+      <p style="font-size:18px; color:blue;"><a href="#thirddivision">My Interest</a></p>
+      <p style="font-size:18px; color:blue;"><a href="#fourthdivision">Education</a></p>
+    </div>
+ 
+    <!-- Second division -->
+     <div id="seconddivision" style="text-align: center; padding-top: 275px; float:left;">
+        <video autoplay muted loop playsinline style="height: 600px; margin: 75px;" controls>
+            <source src="vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="seconddivision" style=" max-width: 600px; height:165px; margin:100px; "></div>
+    <h1>ABOUT ME</h1>
+    <p style="line-height: 2.0;text-align: justify; font-size: 20px;">My name is Adam Iskandar bin Mustafa Kamal. I was born in Kuala Lumpur, the energetic capital of Malaysia, and I am 21 years old. Despite being born in KL, I grew up in the nearby state of Selangor, which greatly influenced who I am now. My viewpoint on life has been consistently inspired and shaped by the various environment I was exposed to while growing up in Selangor, which is full of people, culture, and ideas.I am the youngest of five siblings and come from a loving, close-knit family. My older siblings have greatly influenced and shaped my views, and as the fifth kid, I have had the opportunity to learn from their experiences. Unity, mutual respect, and support have always been important to our family, and I uphold these principles in everything I do.I take satisfaction in being receptive to new experiences and taking in knowledge from those around me, as I am still on a quest for self-discovery. Every individual I encounter and every location I visit, in my opinion, has something worthwhile to offer, and I'm constantly keen to learn and develop. For me, life is about being compassionate, maintaining my sense of reality, and constantly working to improve myself every day.
+
+ </p>
+
+</div>
+
+
+<!-- Third division -->
+     <img id="thirddivision" src="pic4.jpeg" style="height: 600px; text-align: center; margin: 75px; padding-top: 275px; float:right;">
+    </div>
+     <div style="max-width: 950px; text-align: left; margin-left: 30px; height: 600px; padding-top: 350px;">
+        <h1>MY INTEREST</h1>
+        <p style="line-height: 2.0;text-align: justify;  font-size: 20px;">
+            Aside from my passion for coffee shops, my keen interest in fashion makes me special. Fashion, in my opinion, is a means of self-expression that goes beyond simply selecting what to wear. My clothing frequently expresses my feelings and how I want other people to perceive me. I feel more self-assured and at ease with myself when I dress up and try out various looks. I've learned to value details and become more conscious of how presentation affects perception and self-worth thanks to fashion.
+
+            Entering odd cafes is one of the things I truly enjoy doing in life. Although it can seem easy to some, I find this pastime to be exciting and exploratory. Every café is unique in its ambiance, menu, and vibe. Café hopping offers me a welcome change of pace, whether I'm sampling a new coffee mix, taking in the stylish design, or simply relaxing and taking in the scenery. It's a practice that helps me psychologically recharge and feel motivated, particularly while I'm balancing the rigors of school.
+        </p>
+    </div>
+</div>
+<p></p>
+
+
+
+
+<!-- fourth division -->
+     <img src="pic9.jpeg" id="fourthdivision" style="height: 600px; text-align: center; margin: 75px; padding-top: 275px; float:left;">
+    </div>
+     <div style="max-width: 2000px; text-align: left; margin-left: 30px; height: 600px; padding-top: 350px;">
+        <h1>EDUCATION</h1>
+         <p style="line-height: 2.0; text-align: justify; font-size: 20px;">
+            I'm a final-year student in the Faculty of Information Science's Diploma in Information Management program at Universiti Teknologi MARA (UiTM). I now have a solid foundation in data organization, information management, and the critical connection between knowledge and technology thanks to this curriculum. My scholastic journey has been both demanding and fulfilling, enabling me to cultivate practical skills and critical thinking that are applicable to the modern digital world.Participating in extracurricular activities has also helped me learn the value of accountability, time management, and maintaining my commitment to my objectives.I am technically proficient in a wide range of computer skills. I can create and comprehend the reasoning behind websites and basic software development because I am skilled in HTML and C++. I've also worked with programs like Adobe Premiere Pro, Adobe Photoshop, and Canva in digital design and multimedia editing. I've been able to produce captivating images and text for presentations, homework, and personal projects because to these abilities.
+
+
+        </p>
+        <p style="line-height: 2.0; font-size: 20px;">Any Inquiries Please Email Me<a href="mailto:adamizkndr04@gmail.com">adamizkndr04@gmail.com</a>
+
+<!-- Fifth Division: YouTube Video -->
+
+<div style="text-align: center; margin: 40px 0;">
+<div style="text-align: center;">
+  <iframe 
+    width="400" 
+    height="300" 
+    src="https://www.youtube.com/embed/VR9XzPqIGD0" 
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+</div>
+
+<p></p>
+<p></p>
+<p></p>
+
+<audio id="bgMusic" loop hidden>
+  <source src="music.mp3" type="audio/mp3">
+</audio>
+
+<script>
+  window.addEventListener("load", () => {
+    document.body.addEventListener("click", () => {
+      document.getElementById("bgMusic").play();
+    }, { once: true });
+  });
+</script>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<!-- sixth Division: Image Slider -->
+<div class="carousel-container">
+  <div class="carousel-slide" id="carousel-slide">
+    <img src="pic5.jpeg" class="carousel-img" />
+    <img src="pic6.jpeg" class="carousel-img" />
+    <img src="pic7.jpeg" class="carousel-img" />
+    <img src="pic8.jpeg" class="carousel-img" />
+  </div>
+
+  <button class="prev" onclick="prevSlide()">❮</button>
+  <button class="next" onclick="nextSlide()">❯</button>
+</div>
+
+<!-- End of Page Notice -->
+<p style="line-height: 2.0; font-size: 20px; text-align: center;">
+  END OF PAGE <a href="#firstdivision">Let's Go Up</a>
+</p>
+
+<!-- Slider CSS (place in <head> or before </body>) -->
+<style>
+.carousel-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 50px auto;
+  overflow: hidden;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 1600px; /* 4 images × 400px */
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+</style>
+
+<!-- JavaScript (must be placed before </body>) -->
+<script>
+  let slideIndex = 0;
+
+  function showSlide(index) {
+    const slide = document.getElementById('carousel-slide');
+    const totalSlides = document.querySelectorAll('.carousel-img').length;
+
+    if (index >= totalSlides) {
+      slideIndex = 0;
+    } else if (index < 0) {
+      slideIndex = totalSlides - 1;
+    } else {
+      slideIndex = index;
+    }
+
+    const offset = -400 * slideIndex;
+    slide.style.transform = `translateX(${offset}px)`;
+  }
+
+  function nextSlide() {
+    showSlide(slideIndex + 1);
+  }
+
+  function prevSlide() {
+    showSlide(slideIndex - 1);
+  }
+
+  // Show initial slide
+  showSlide(slideIndex);
+</script>
+
+<!-- Footer -->
+<div style="height: auto; background-color: black;">
+  <h1 style="color: white; padding: 40px; margin: 0; text-align: center;">
+    LIVE, LAUGH, LOVE... ADAM ✦
+  </h1>
+</div>
+
+
+</body>
+</html>
